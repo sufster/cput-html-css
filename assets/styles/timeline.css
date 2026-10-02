@@ -1,0 +1,89 @@
+.education-container{
+    color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+}
+
+.education{
+    display: flex;
+}
+.card-right{
+    
+    padding: 5% 10% 0% 25%;
+    float: right;
+}
+.card-left{
+    padding: 5% 25% 0% 0%;
+    float: left;
+}
+.present{
+    font-family: fantasy;
+    font-size: large;
+    color: rgb(167, 7, 7);;
+}
+
+.content
+{
+    border: solid #b3b3b3;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.work-container{
+    color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+}
+
+.work{
+    display: flex;
+}
+.heading{
+    display: flex;
+    color: #b3b3b3;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading h1{
+    padding: 25px;
+    margin-top: 1%;
+}
+
+.line{
+    width: 14px;
+    height: 330px;
+    background-color: #b3b3b3;
+    position: absolute;
+    right: 49%;
+}
+.circle{
+    height: 36px;
+    background-color: #b3b3b3;
+    border-radius: 100%;
+    width: 36px;
+    bottom: 40%;
+    position: absolute;
+    right: -80%;
+}
+
+.content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #b3b3b3;
+}
+
+.cert-image-right {
+  height: 260px;
+  position: absolute;
+  float: right;
+  right: 25%;
+  border-radius: 20px;
+  top: 141%;
+}
+.cert-image-left {
+  height: 260px;
+  position: absolute;
+  float: left;
+  left: 25%;
+  border-radius: 20px;
+  top: 141%;
+}

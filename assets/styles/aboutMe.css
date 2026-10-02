@@ -1,0 +1,20 @@
+.about-me
+{
+    color: #b3b3b3;
+    font-size: 28px;
+}
+
+.name-container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.career
+{
+    font-family: fantasy;
+    font-weight: bolder;
+    color: rgb(167, 7, 7);
+}
+
